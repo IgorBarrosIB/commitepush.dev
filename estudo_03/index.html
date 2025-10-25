@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Versões - Profile Images</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 Sistema de Versões - Profile Images</h1>
+
+        <div id="loading" class="loading">
+            Carregando versões...
+        </div>
+
+        <div id="content" style="display: none;">
+            <div class="active-version">
+                <h2>Versão Ativa Atual</h2>
+                <div class="profile-image" id="activeProfile">👨‍💻</div>
+                <div class="version-info">
+                    <p><strong>ID:</strong> <span id="activeId">-</span></p>
+                    <p><strong>Nome:</strong> <span id="activeName">-</span></p>
+                    <p><strong>Descrição:</strong> <span id="activeDesc">-</span></p>
+                </div>
+            </div>
+
+            <div class="controls">
+                <h3>⚙️ Controles</h3>
+                <button onclick="toggleJSON()">📄 Ver/Ocultar JSON</button>
+                <button onclick="activateRandom()">🎲 Ativar Aleatória</button>
+                <button onclick="loadVersions()">🔄 Recarregar JSON</button>
+                <button onclick="saveVersions()">💾 Salvar Alterações</button>
+            </div>
+
+            <h2 style="color: white; margin: 20px 0; text-align: center;">Todas as Versões Disponíveis</h2>
+            
+            <div class="version-grid" id="versionGrid"></div>
+
+            <div class="controls" id="jsonSection" style="margin-top: 30px; display: none;">
+                <h3>📋 Configuração JSON Atual</h3>
+                <pre class="json-viewer" id="jsonViewer"></pre>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

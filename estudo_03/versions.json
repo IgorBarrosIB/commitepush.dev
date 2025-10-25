@@ -1,0 +1,86 @@
+{
+  "v1": {
+    "id": "v1",
+    "name": "Desenvolvedor",
+    "emoji": "👨‍💻",
+    "description": "Profissional de tecnologia",
+    "active": true
+  },
+  "v2": {
+    "id": "v2",
+    "name": "Designer",
+    "emoji": "👨‍🎨",
+    "description": "Profissional criativo",
+    "active": false
+  },
+  "v3": {
+    "id": "v3",
+    "name": "Cientista",
+    "emoji": "👨‍🔬",
+    "description": "Pesquisador científico",
+    "active": false
+  },
+  "v4": {
+    "id": "v4",
+    "name": "Médico",
+    "emoji": "👨‍⚕️",
+    "description": "Profissional da saúde",
+    "active": false
+  },
+  "v5": {
+    "id": "v5",
+    "name": "Engenheiro",
+    "emoji": "👨‍🔧",
+    "description": "Especialista técnico",
+    "active": false
+  },
+  "v6": {
+    "id": "v6",
+    "name": "Professor",
+    "emoji": "👨‍🏫",
+    "description": "Educador",
+    "active": false
+  },
+  "v7": {
+    "id": "v7",
+    "name": "Empresário",
+    "emoji": "👨‍💼",
+    "description": "Profissional de negócios",
+    "active": false
+  },
+  "v8": {
+    "id": "v8",
+    "name": "Estudante",
+    "emoji": "👨‍🎓",
+    "description": "Aprendiz acadêmico",
+    "active": false
+  },
+  "v9": {
+    "id": "v9",
+    "name": "Chef",
+    "emoji": "👨‍🍳",
+    "description": "Profissional culinário",
+    "active": false
+  },
+  "v10": {
+    "id": "v10",
+    "name": "Astronauta",
+    "emoji": "👨‍🚀",
+    "description": "Explorador espacial",
+    "active": false
+  },
+  "v11": {
+    "id": "v11",
+    "name": "Músico",
+    "emoji": "👨‍🎤",
+    "description": "Artista musical",
+    "active": false
+  },
+  "v12": {
+    "id": "v12",
+    "name": "Bombeiro",
+    "emoji": "👨‍🚒",
+    "description": "Herói do resgate",
+    "active": false
+  }
+}
